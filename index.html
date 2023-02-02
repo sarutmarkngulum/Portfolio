@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>ส่งงานจารย์</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="content rectangle anim-singular">
+            <div class="top-bottom"></div>
+            <div class="left-right"></div>
+
+            <div class="wrapper">
+            
+
+                <div class="cols">
+                    <div class="imgbox">
+                        <span class="ball"><img src="/images/photo.png" alt=""></span>
+                    </div>
+          
+                   
+                    
+                    <div class="history">
+                        <span class="topline">Hello</span>
+                        <h1>I'm <span class="multiText"></span></h1>
+                        <ul>
+                            <li>ชื่อ : นาย ศรุติ มากงูเหลือม</li>
+                            <li>ตำแหน่งงานที่สนใจ : Backend developer,Full stack developer</li>
+                            <li>ความสามารถด้านซอฟต์แวร์ : MERN Stack (React.js,Node.js,Mongodb) , Laravel(PHP) , MySQL </li>
+                            <li>ความสามารถด้านอาร์ดแวร์ : Arduino (C/C++)</li>
+                            <li>วิชาทีเรียนแล้วมีความเข้าใจสูง : Data structure and Algorithms</li>
+                            <li>โปรเจคที่ทำระหว่างเรียน : Blog , E-commerce , WMS , POS</li>
+                        </ul>
+                    </div>
+                </div>
+                
+    
+                <div class="cols2">
+           
+                    <h1 class="texthead"><span class="multiText2"></span></h1>
+                        <div class="text">
+                            <ul>
+                                <li>Freelance web developer</li>
+                                <p>- web landing page พัฒนาเว็บด้วย html css.</p>
+                                <p>- ระบบรับคำร้องเรียนของหมาลัย พัฒนาเว็บด้วย MERN Stack  </p>
+                                <p>- เว็บ web E-commerce พัฒนาเว็บด้วย Next.js เพื่อให้รองรับ SEO</p>
+                                <p>- ระบบแจ้งซ่อมภายในโรงงาน พัฒนาเว็บด้วย Laravel </p>
+                            </ul>
+    
+                        </div>
+    
+                    <h1 class="texthead"><span class="multiText3"></span></h1>
+                        <div class="text">  
+                            <ul>
+                                <li>ใบรับรองการจบหลักสูตร พัฒนาเว็บด้วย JavaScript (MERN Stack)</li>
+                                <li>การแข่งขันการเขียนโปรแกรมด้วยภาษาคอมพิวเตอร์ ศิลปหัตถกรรม ศิลปหัตถกรรมครั้งที่ 69</li>
+                                <li>การแข่งขันการเขียนโปรแกรมด้วยภาษาคอมพิวเตอร์ ศิลปหัตถกรรม ศิลปหัตถกรรมครั้งที่ 70</li>
+                            </ul>
+                        </div>
+    
+                    
+                </div>
+    
+    
+            </div>
+        </div>
+
+
+        <div id="background-wrap">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ['Sarut Markngulaum','CPE 64/2'],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1500
+        })
+
+        var typingEffect = new Typed(".multiText2",{
+            strings : ['ประสบการณ์ทำงาน',''],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1500
+        })
+
+        var typingEffect = new Typed(".multiText3",{
+            strings : ['Certificate',''],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1500
+        })
+    </script>
+      <script>
+        const tween = KUTE.fromTo(
+          '#blob1',
+          { path: '#blob1' },
+          { path: '#blob2' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        ).start();
+      </script>
+
+</body>
+
+</html>
